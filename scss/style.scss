@@ -1,0 +1,21 @@
+$color-amarillo: #ffd031;
+$color-amarillo-claro: #ffef78;
+$color-violeta: #710193;
+@import "header";
+@import "footer";
+@import "contacto";
+@import "review";
+@import "quienessomos";
+@import "noticias";
+
+
+body{
+    background-color: $color-amarillo;
+    font-family: 'Bungee', cursive;
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    h1{
+        color: $color-violeta;
+    }
+}

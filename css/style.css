@@ -1,0 +1,37 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header .bi-list {
+  color: #ffef78;
+  font-size: 2rem;
+}
+header .nav-item .nav-link {
+  color: #710193;
+}
+header .nav-item .nav-link:hover {
+  color: #ffef78;
+}
+
+.footer-sm {
+  background-color: #710193;
+  color: #ffef78;
+}
+
+.title-copy {
+  color: #ffef78;
+}
+
+body {
+  background-color: #ffd031;
+  font-family: "Bungee", cursive;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+body h1 {
+  color: #710193;
+}
+
+/*# sourceMappingURL=style.css.map */

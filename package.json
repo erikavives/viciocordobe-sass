@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Cordoba, Argentinagit",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikavives/viciocordobe-bt2pag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikavives/viciocordobe-bt2pag/issues"
+  },
+  "homepage": "https://github.com/erikavives/viciocordobe-bt2pag#readme"
+}
