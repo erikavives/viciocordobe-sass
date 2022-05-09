@@ -1,12 +1,13 @@
-$color-amarillo: #ffd031;
-$color-amarillo-claro: #ffef78;
-$color-violeta: #710193;
+@import "variables";
+@import "mixins";
+@import "home";
 @import "header";
 @import "footer";
 @import "contacto";
 @import "review";
 @import "quienessomos";
 @import "noticias";
+
 
 
 body{
@@ -17,5 +18,10 @@ body{
     grid-template-rows: auto 1fr auto;
     h1{
         color: $color-violeta;
+        font-weight: map-get($font-weights,bold);
+    }
+    p{
+        color: $color-violeta;
+        font-weight: map-get($font-weights,medium);
     }
 }

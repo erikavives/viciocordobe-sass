@@ -1,0 +1,21 @@
+button{
+    background-color: $color-violeta;
+    color: $color-amarillo-claro;
+    border: 0ch;
+    &:hover{
+        color: $color-amarillo;
+    }
+}
+
+.form-label{
+    color: $color-violeta;
+    font-weight: map-get($font-weights, medium );
+}
+
+.form-control{
+    background-color: $color-violeta;
+}
+
+.form-text{
+    color: $color-violeta;
+}
