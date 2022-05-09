@@ -52,7 +52,11 @@ button:hover {
 }
 
 .intro-section {
-  padding: 4rem 0 0 0;
+  padding: 3rem 0 0 0;
+}
+.intro-section span {
+  color: #710193;
+  font-size: medium;
 }
 
 body {
