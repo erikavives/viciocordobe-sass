@@ -29,6 +29,11 @@ header .nav-item .nav-link:hover {
   color: #ffef78;
 }
 
+.contact-title {
+  color: #710193;
+  font-weight: 700;
+}
+
 button {
   background-color: #710193;
   color: #ffef78;
@@ -48,6 +53,11 @@ button:hover {
 }
 
 .form-text {
+  color: #710193;
+}
+
+.bigicon {
+  font-size: 35px;
   color: #710193;
 }
 

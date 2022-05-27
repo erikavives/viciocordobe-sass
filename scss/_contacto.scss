@@ -1,3 +1,8 @@
+.contact-title{
+    color: #710193;
+    font-weight: 700;
+}
+
 button{
     background-color: $color-violeta;
     color: $color-amarillo-claro;
@@ -17,5 +22,10 @@ button{
 }
 
 .form-text{
+    color: $color-violeta;
+}
+
+.bigicon {
+    font-size: 35px;
     color: $color-violeta;
 }
